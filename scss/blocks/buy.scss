@@ -1,0 +1,107 @@
+.buy {
+  min-height: 1050px;
+  margin-top: 22px;
+  padding-top: 259px;
+  background-image: url("../public/img/buy/buy_bg.jpg");
+  background-size: cover;
+  @media screen and (max-width: 1024px) {
+    padding-bottom: 60px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 80px;
+    padding-bottom: 140px;
+  }
+}
+
+.buy__container {
+  width: min(1716px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.buy__title {
+  margin-bottom: 83px;
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  filter: drop-shadow(0 6px #6aa19a);
+
+  @media screen and (max-width: 1200px) {
+    font-size: 76px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 68px;
+    text-align: center;
+  }
+}
+
+.buy__steps {
+  display: flex;
+  gap: 75px;
+  @media screen and (max-width: 1280px) {
+    gap: 40px;
+  }
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.steps__create,
+.steps__add,
+.steps__bye {
+  width: 33%;
+  min-height: 303px;
+  padding: 58px 46px;
+  border-radius: 29px;
+  background-color: #fff;
+  position: relative;
+
+  @media screen and (max-width: 1280px) {
+    padding: 30px 20px;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 50%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 70%;
+  }
+  @media screen and (max-width: 480px) {
+    width: 90%;
+  }
+
+  h3 {
+    margin-bottom: 37px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+  }
+
+  img {
+    position: absolute;
+    top: 58px;
+    right: 46px;
+    @media screen and (max-width: 1280px) {
+      top: 30px;
+      right: 20px;
+    }
+  }
+}
+
+.steps__create {
+  img {
+    top: 50px;
+    @media screen and (max-width: 1280px) {
+      top: 20px;
+      right: 20px;
+    }
+  }
+}
